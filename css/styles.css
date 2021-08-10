@@ -337,4 +337,8 @@ template {
   display: none;
 }
 
+.gallery {
+  display: grid;
+}
+
 /*# sourceMappingURL=styles.css.map */
