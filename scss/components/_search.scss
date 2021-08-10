@@ -3,8 +3,20 @@ input[type=search] {
     height: 50px;
     width: 50%;
     padding-left: 2%;
+    background: $input-background-color;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    &:focus {
+        outline: none;
+        border: 3px solid #003366;
+        transition: all .2s;
+    }
+    &:hover {
+        transform: scale(1.025);
+        transition: all .5s ease-out;
+    }
 }
-
 .searchbar {
     text-align: center;
 }
