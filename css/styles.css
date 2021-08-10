@@ -1,17 +1,26 @@
-body {
+* {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 900px;
+  box-sizing: border-box;
 }
 
 .gallery {
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
   grid-gap: 20px;
 }
 
-#search {
-  margin: 0 auto;
-  width: 100px;
+input[type=search] {
+  margin-top: 30px;
+  height: 50px;
+  width: 70%;
+  padding-left: 2%;
+}
+
+.searchbar {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
